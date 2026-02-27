@@ -1,0 +1,70 @@
+================================================================================
+                    INSTALAR PYTHON - PASSO A PASSO
+================================================================================
+
+ANTES DE USAR O SCRIPT, VOCE PRECISA INSTALAR O PYTHON!
+
+PASSO 1 - BAIXAR O PYTHON
+--------------------------
+1. Acesse: https://www.python.org/downloads/
+2. Clique no botao amarelo "Download Python 3.x.x"
+3. Aguarde o download (arquivo ~25MB)
+
+
+PASSO 2 - INSTALAR O PYTHON
+----------------------------
+1. De dois cliques no arquivo baixado (python-3.x.x.exe)
+
+2. ⚠️ MUITO IMPORTANTE ⚠️
+   Na PRIMEIRA TELA da instalacao:
+   
+   ✅ MARQUE a caixinha: "Add Python to PATH"
+   
+   (Esta e a parte MAIS IMPORTANTE! Se nao marcar, nao vai funcionar)
+
+3. Clique em "Install Now"
+
+4. Aguarde a instalacao (1-2 minutos)
+
+5. Clique em "Close" quando aparecer "Setup was successful"
+
+
+PASSO 3 - VERIFICAR SE FUNCIONOU
+---------------------------------
+1. Aperte as teclas: Windows + R
+2. Digite: cmd
+3. Pressione ENTER
+4. No prompt preto que abrir, digite: python --version
+5. Pressione ENTER
+
+Se aparecer algo como "Python 3.12.0", esta instalado!
+Se aparecer erro, o Python nao foi adicionado ao PATH.
+
+
+PASSO 4 - USAR O SCRIPT
+------------------------
+Agora sim, pode:
+1. Colocar os arquivos .bat e .py na pasta com os 45 TXTs
+2. Dar dois cliques no arquivo EXECUTAR.bat
+3. Seguir as instrucoes
+
+
+================================================================================
+PROBLEMAS COMUNS
+================================================================================
+
+PROBLEMA: "Python nao e reconhecido como comando"
+SOLUCAO: Voce esqueceu de marcar "Add Python to PATH"
+         Desinstale o Python e reinstale marcando essa opcao
+
+PROBLEMA: O .bat nao abre
+SOLUCAO: Clique com botao direito > "Executar como administrador"
+
+PROBLEMA: Nada acontece ao clicar no .bat
+SOLUCAO: O antivirus pode estar bloqueando. Adicione uma excecao
+
+================================================================================
+
+Qualquer duvida, me chama!
+
+Sandro, seu numero: (32) 99106-3549
