@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npx --yes create-vite@latest . --template react-ts)",
+      "Bash(cp -r temp_vite/crm-app/* .)",
+      "Bash(cp temp_vite/crm-app/.gitignore .)",
+      "Bash(cp temp_vite/crm-app/.eslintrc.cjs .)",
+      "Bash(rm -rf temp_vite)",
+      "Bash(npm install:*)",
+      "Bash(npx --yes shadcn@latest init -d --base-color slate --css-variables true)",
+      "Bash(npx shadcn@latest init -d)"
+    ]
+  }
+}
