@@ -10,7 +10,10 @@ import { DealsPage } from '@/pages/crm/DealsPage';
 import { LeadsPage } from '@/pages/crm/LeadsPage';
 import { ContactsPage } from '@/pages/crm/ContactsPage';
 import { CompaniesPage } from '@/pages/crm/CompaniesPage';
-import { PlaceholderPage } from '@/pages/PlaceholderPage';
+import { TasksPage } from '@/pages/crm/TasksPage';
+import { TicketsPage } from '@/pages/crm/TicketsPage';
+import { ReportsPage } from '@/pages/reports/ReportsPage';
+import { SettingsPage } from '@/pages/settings/SettingsPage';
 
 export default function App() {
   return (
@@ -36,10 +39,10 @@ export default function App() {
           <Route path="deals" element={<DealsPage />} />
           <Route path="contacts" element={<ContactsPage />} />
           <Route path="companies" element={<CompaniesPage />} />
-          <Route path="tasks" element={<PlaceholderPage title="Tarefas" />} />
-          <Route path="support" element={<PlaceholderPage title="Suporte" />} />
-          <Route path="reports" element={<PlaceholderPage title="Relatórios" />} />
-          <Route path="settings" element={<PlaceholderPage title="Configurações" />} />
+          <Route path="tasks" element={<TasksPage />} />
+          <Route path="support" element={<TicketsPage />} />
+          <Route path="reports" element={<ReportsPage />} />
+          <Route path="settings" element={<SettingsPage />} />
           <Route path="profile" element={<ProfilePage />} />
         </Route>
 
