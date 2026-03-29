@@ -9,7 +9,8 @@
       "Bash(rm -rf temp_vite)",
       "Bash(npm install:*)",
       "Bash(npx --yes shadcn@latest init -d --base-color slate --css-variables true)",
-      "Bash(npx shadcn@latest init -d)"
+      "Bash(npx shadcn@latest init -d)",
+      "Bash(npx shadcn@latest add input label card avatar badge separator sheet dialog dropdown-menu tooltip scroll-area skeleton tabs select textarea switch popover command -y)"
     ]
   }
 }
