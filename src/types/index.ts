@@ -153,7 +153,7 @@ export interface Company {
   website: string | null;
   phone: string | null;
   email: string | null;
-  employee_count: number | null;
+  employee_count: string | null;
   annual_revenue: number | null;
   revenue_currency: string | null;
   type: string | null;

@@ -6,6 +6,10 @@ import { RegisterPage } from '@/pages/auth/RegisterPage';
 import { ForgotPasswordPage } from '@/pages/auth/ForgotPasswordPage';
 import { ProfilePage } from '@/pages/auth/ProfilePage';
 import { DashboardPage } from '@/pages/dashboard/DashboardPage';
+import { DealsPage } from '@/pages/crm/DealsPage';
+import { LeadsPage } from '@/pages/crm/LeadsPage';
+import { ContactsPage } from '@/pages/crm/ContactsPage';
+import { CompaniesPage } from '@/pages/crm/CompaniesPage';
 import { PlaceholderPage } from '@/pages/PlaceholderPage';
 
 export default function App() {
@@ -28,10 +32,10 @@ export default function App() {
         >
           <Route index element={<Navigate to="/dashboard" replace />} />
           <Route path="dashboard" element={<DashboardPage />} />
-          <Route path="leads" element={<PlaceholderPage title="Leads" />} />
-          <Route path="deals" element={<PlaceholderPage title="Negócios" />} />
-          <Route path="contacts" element={<PlaceholderPage title="Contatos" />} />
-          <Route path="companies" element={<PlaceholderPage title="Empresas" />} />
+          <Route path="leads" element={<LeadsPage />} />
+          <Route path="deals" element={<DealsPage />} />
+          <Route path="contacts" element={<ContactsPage />} />
+          <Route path="companies" element={<CompaniesPage />} />
           <Route path="tasks" element={<PlaceholderPage title="Tarefas" />} />
           <Route path="support" element={<PlaceholderPage title="Suporte" />} />
           <Route path="reports" element={<PlaceholderPage title="Relatórios" />} />
